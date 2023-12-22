@@ -9,8 +9,8 @@ export const Card = ({name, title, date, img}) => {
             <img src={plant} alt="plant" className='plant-logo'/>
             <img src={img} alt={title} className='plant-image'/>
         </div>
+        <p className='card-title'>{title}</p>
         <p>{name}</p>
-        <p>{title}</p>
         <p>{date}</p>
 
     </div>
