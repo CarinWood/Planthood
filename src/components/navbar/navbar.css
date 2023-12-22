@@ -1,0 +1,27 @@
+nav {
+    width: 1001px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px rgba(3, 56, 47, 0.11);
+}
+
+nav ul {
+    width: 792px;
+    height: 17.15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--green-text);
+    cursor: pointer;
+    line-height: 23.5px;
+    font-weight: 500;
+}

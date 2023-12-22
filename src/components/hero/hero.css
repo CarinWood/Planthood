@@ -2,7 +2,6 @@
     width: 1001px;
     height: 540px;
     display: flex;
-    border: 1px solid black;
 }
 
 .right-side {
@@ -15,6 +14,10 @@
 .box-1 {
     width: 501px;
     height: 540px;
+    background-color: var(--lightgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-2, .box-3 {
