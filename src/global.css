@@ -9,6 +9,14 @@
   src: url('./assets/fonts/MavenPro-VariableFont_wght.ttf');
 }
 
+:root {
+  --green: #0A846E;
+  --brown: #9E6D52;
+  --lightgray: #D9D9D9;
+  --green-text: #055647;
+  --background: #fcf6fc;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -16,11 +24,6 @@ body {
   justify-content: flex-end;
   padding-bottom: 200px;
   font-family: "Maven Pro";
+  background-color: var(--background);
 }
 
-:root {
-  --green: #0A846E;
-  --brown: #9E6D52;
-  --lightgray: #D9D9D9;
-  --green-text: #055647;
-}
