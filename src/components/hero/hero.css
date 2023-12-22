@@ -1,0 +1,30 @@
+.hero {
+    width: 1001px;
+    height: 540px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1 {
+    width: 501px;
+    height: 540px;
+}
+
+.box-2, .box-3 {
+    width: 500px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2 {background: var(--brown);}
+.box-3 {background-color: var(--green);}
+
