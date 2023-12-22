@@ -11,7 +11,7 @@ export const Plantations = () => {
             return <Card {...item} key={item.id}/>
         })}
         </div>
-
+        <button className='plantation-btn'>Visa fler</button>
     </div>
   )
 }
