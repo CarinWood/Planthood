@@ -1,0 +1,27 @@
+.plantations {
+    width: 932px;
+    height: 1052px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headline {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plant-grid {
+    border: 1px solid black;
+    width: 932px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+}
