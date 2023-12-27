@@ -83,3 +83,23 @@ footer {
     line-height: 32.68px;
     cursor: pointer;
 }
+
+.phone-icon {
+    color: white;
+    font-size: 26px;
+    z-index: 10;
+    position: absolute;
+    bottom: 4.6%;
+    left: 3.3%;
+}
+
+.envelope-icon {
+    right: 0%;
+    z-index: 10;
+    font-size: 32px;
+    color: white;
+    bottom: 4.2%;
+    position: absolute;
+    right: 3%;
+    
+}
