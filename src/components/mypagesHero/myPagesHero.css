@@ -1,0 +1,27 @@
+.pages-hero {
+    width: 1001px;
+    height: 379px;
+    background-image: url('../../assets/images/hand.avif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.my-pages-logo {
+    width: 195px;
+    margin-top: 43px;
+
+}
+
+.pages-hero p {
+    font-family: "Maven Pro";
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 33px;
+}
