@@ -1,0 +1,57 @@
+.season-container {
+    width: 911px;
+    height: 377px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.season-headline {
+    color: var(--green);
+    width: 573px;
+    height: 29px;
+    font-family: 'Maven Pro';
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 8ö0px;
+}
+
+.season-text-headline {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.season-text {
+    width: 467px;
+    height: 71px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.season-btn {
+    width: 179px;
+    height: 63px;
+    background-color: var(--green);
+    color: white;
+    border-radius: 9px;
+    border: none;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+}
+
+.divider {
+    width: 303px;
+    background-color: var(--green);
+    height: 3px;
+    margin-top: 80px;
+}
