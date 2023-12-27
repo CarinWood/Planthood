@@ -1,0 +1,46 @@
+.my-page-footer {
+    width: 1000px;
+    height: 336px;
+    background: #9E6D52;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 0px 25px;
+    margin-top: 80px;
+
+}
+
+.footer-box-1, .footer-box-2, .footer-box-3, .footer-box-4 {
+    width: 220px;
+    height: 277px;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-box-4 {
+    background-image: url('../../assets/images/apples.jpg');
+}
+
+.footer-box-3 {
+    background-image: url('../../assets/images/carrots.jpg');
+
+}
+.footer-box-2 {
+    background-image: url('../../assets/images/water-can.jpg');
+}
+
+.footer-box-1 {
+    background-image: url('../../assets/images/pepper.jpg');
+}
+
+.my-page-footer-text {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 24px;
+    width: 1000px;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

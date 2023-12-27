@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <> 
         <Hero/>
-        <Navbar/>
+        <Navbar item={"Logga in"}/>
         <Season/>
         <Plantations/>
         <Earlier/>
