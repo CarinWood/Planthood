@@ -15,7 +15,6 @@
 .my-pages-logo {
     width: 195px;
     margin-top: 43px;
-
 }
 
 .pages-hero p {
@@ -26,3 +25,53 @@
     color: white;
     margin-top: 33px;
 }
+
+.black-bg {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+.menubar {
+    visibility: hidden;
+    font-size: 0px;
+}
+
+
+@media screen and (max-width: 987px) {
+    .pages-hero {
+        width: 390px;
+        height: 399px;
+    }
+
+    .menubar {
+        visibility: visible;
+        font-size: 45px;
+        position: absolute;
+        top: 6%;
+        right: 5%;
+        color: white;
+        z-index: 10;
+
+    }
+
+    .black-bg {
+        visibility: visible;
+        width: 390px;
+        height: 399px;
+        position: absolute;
+        top: 0;
+        background-color: black;
+        opacity: 0.2;
+    }
+
+    .pages-hero p {
+        font-size: 32px;
+        z-index: 100;
+    }
+
+    .my-pages-logo {
+        margin-top: 80px;
+        z-index: 100;
+    }
+} 
