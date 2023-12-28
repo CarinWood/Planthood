@@ -65,3 +65,54 @@ form input {
     left: 50%;
     margin-left: -96px;
 }
+
+@media screen and (max-width: 987px) {
+    .my-plantage h1 {
+        font-size: 24px;
+       
+    }
+
+    .my-plantage {
+        width: 390px;
+        height: 399px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+    }
+
+    form input {
+        width: 357px;
+        height: 52px;
+        padding-left: 0px;
+        font-size: 20px;
+        margin-top: 5px;
+        padding-left: 60px;
+    }
+
+    .plant-label {
+        font-size: 12px;
+        margin-top: -40px;
+        left: 0;
+    }
+    
+    .date-label {
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 20px;
+        opacity: 1;
+        position: absolute;
+        margin-top: -40px;
+        left: 52%;
+    }
+    
+}
