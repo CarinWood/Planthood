@@ -40,3 +40,44 @@
     font-size: 24px;
     margin: 50px 0px 50px 0px;
 }
+
+@media screen and (max-width: 987px) {
+    
+.headline {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plantations {
+    width: 390px;
+    height: auto;
+}
+
+
+.plant-grid {
+    width: 390px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 8px;
+    border: 1px solid black;
+}
+
+.plantation-btn {
+    width: 116px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 50px 0px 50px 0px;
+}
+
+}
