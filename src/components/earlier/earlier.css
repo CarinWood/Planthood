@@ -54,3 +54,35 @@
     font-weight: 600;
     font-size: 24px;
 }
+
+
+@media screen and (max-width: 987px) {
+    .earlier-container {
+        width: 390px;
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+        border: 1px solid black;
+    }
+    .earlier-headline {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        border: 1px solid blue;
+        margin: 40px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .earlier-text {
+        font-size: 14px;
+        line-height: 20px;
+        width: 363px;
+        height: 115px;
+        margin: 20px 0px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 0px 15px;
+    }
+}
