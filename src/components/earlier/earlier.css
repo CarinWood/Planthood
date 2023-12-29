@@ -64,13 +64,19 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 80px;
-        border: 1px solid black;
     }
+
+    .earlier-container article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .earlier-headline {
         font-size: 16px;
         line-height: 22px;
         text-align: center;
-        border: 1px solid blue;
         margin: 40px 0px 0px 0px;
         width: 100%;
     }
@@ -82,7 +88,14 @@
         height: 115px;
         margin: 20px 0px;
         text-align: center;
-        border: 1px solid black;
         padding: 0px 15px;
+    }
+
+    .earlier-btn {
+        width: 179px;
+        height: 38px;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 16px;
     }
 }

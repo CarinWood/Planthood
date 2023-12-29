@@ -100,6 +100,72 @@ footer {
     color: white;
     bottom: 4.2%;
     position: absolute;
-    right: 3%;
+    right: 3%;  
+}
+
+@media screen and (max-width: 987px) {
+    footer {
+        width: 390px;
+        height:auto;
+        box-shadow: 0px 4px 4px 0px rgba(3, 56, 47, 0.11);
+    }   
+
+    .container {
+        width: 390px;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .black {
+        width: 390px;
+        height: 401px;
+    }
+
+    .shade {
+        opacity: 0.79;
+    }
+
+    .footer-text {
+        font-size: 32px;
+        width: 117px;
+        height: 38px;
+        z-index: 10;
+    }
+
+    .phone, .email {
+        font-size: 12px;
+    }
+    .email {
+        right: 12%;
+    }
+
+    .phone-icon {
+        font-size: 18px;
+        left: 4%;
+    }
+
+    .envelope-icon {
+        font-size: 20px;
+        color: white;
+        bottom: 4.2%;
+        position: absolute;
+        right: 5%;  
+    }
+
+    .white {
+        width: 390pxd;
+        height: 401px;
+    }
+
+    .white img {
+        width: 190px;
+    }
+
+    #to-top {
+        font-size: 12px;
+        width: 390px;
+        height: 75px;
+    }
+    
     
 }
