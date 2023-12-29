@@ -7,6 +7,11 @@ import holding from '../../assets/images/holding.avif'
 export const Hero = () => {
   return (
     <div className="hero">
+      <div className='menu-box'>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+      </div>
 
         <div className='box-1'>
           <img src={logo} alt='logo' className='logo'/>
