@@ -1,5 +1,6 @@
 import './card.css'
 import plant from '../../assets/images/plant.svg'
+import { FaRegTrashCan } from "react-icons/fa6";
 
 // eslint-disable-next-line react/prop-types
 export const Card = ({name, title, date, img}) => {
@@ -16,6 +17,7 @@ export const Card = ({name, title, date, img}) => {
         <div className='second-row'>
         <p className='name'>{name}</p>
         <button className='delete-btn'>TA BORT</button>
+        <FaRegTrashCan className='trash-can'/>
         </div>
     
 

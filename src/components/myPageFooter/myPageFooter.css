@@ -44,3 +44,32 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 987px) {
+    .my-page-footer {
+        width: 390px;
+        height: 220px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center; 
+        justify-content: space-around;
+        padding: 12px 12px;
+        margin-top: 80px;
+    }   
+
+    
+    .footer-box-1, .footer-box-2, .footer-box-3, .footer-box-4 {
+        width: 173px;
+        height: 86px;
+        opacity: 0.73;
+    }
+
+    .my-page-footer-text {
+        font-size: 14px;
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -73,3 +73,62 @@
     font-size: 16px;
     margin-left: 5px;
 }
+
+.trash-can {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 987px) {
+    .card {
+        width: 175px;
+        height: 220px;
+        margin-left: 16px;
+        box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }   
+
+    .image-container {
+        width: 175px;
+        height: 160px;
+        position: relative; 
+        display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .date {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .name {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .second-row {
+        margin-top: 10px;
+    }
+
+    .delete-btn {
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    .plant-logo {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .trash-can {
+        visibility: visible;
+        font-size: 18px;
+        color: #B93857;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+}

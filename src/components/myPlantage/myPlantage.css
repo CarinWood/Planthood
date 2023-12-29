@@ -69,12 +69,13 @@ form input {
 @media screen and (max-width: 987px) {
     .my-plantage h1 {
         font-size: 24px;
+        margin-bottom: 20px;
        
     }
 
     .my-plantage {
         width: 390px;
-        height: 399px;
+        height: 350px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -101,18 +102,25 @@ form input {
 
     .plant-label {
         font-size: 12px;
-        margin-top: -40px;
-        left: 0;
+        margin-top: 0px;
+        left: 6%;
+        top: 8%
     }
     
     .date-label {
-        font-family: "Open Sans";
-        font-weight: 400;
-        font-size: 20px;
-        opacity: 1;
-        position: absolute;
-        margin-top: -40px;
-        left: 52%;
+        font-size: 12px;
+        margin-top: 0px;
+        left: 6%;
+        top: 58%;
+    }
+
+    .add-btn {
+        width: 116px;
+        height: 35px;
+        font-size: 16px;
+        left: 50%;
+        margin-left: -58px;
+        bottom: 20%;
     }
     
 }
