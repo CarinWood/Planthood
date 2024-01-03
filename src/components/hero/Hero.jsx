@@ -4,10 +4,11 @@ import dig from '../../assets/images/dig.svg'
 import logo from '../../assets/images/logo.svg'
 import holding from '../../assets/images/holding.avif'
 
-export const Hero = () => {
+// eslint-disable-next-line react/prop-types
+export const Hero = ({clickOnHamburger}) => {
   return (
     <div className="hero">
-      <div className='menu-box'>
+      <div className='menu-box' onClick={()=>clickOnHamburger()}>
         <div className='line'></div>
         <div className='line'></div>
         <div className='line'></div>
